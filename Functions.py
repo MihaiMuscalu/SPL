@@ -7,7 +7,7 @@ def Rand():
     return random.randrange(100,200)
 
 def WordFromArray(Word):
-    return Word[random.random*len(Word)]
-
+    return Word[random.randrange(0,len(Word))]
+Mih
 List = ["s","a","223","oosd"]
 print(WordFromArray(List))
