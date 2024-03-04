@@ -32,16 +32,5 @@ def End():
     sys.exit()
     
     
-while True:
-    selection = getMenuOption()
-    match selection:
-        case 1:
-            Deposit()
-        case 2:
-            Withdraw()
-        case 3:
-            Balance()
-        case 4:
-            End()
 
 
